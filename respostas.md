@@ -43,8 +43,11 @@ R: No -p, o formato é sempre host:container. Em -p 7042:80, o 7042 é a porta d
 ## Parte 4 · Primeiro docker-compose
 
 7. Escreva os dois comandos `docker run` que fariam o mesmo que o seu `docker-compose.yml`.
+R: docker run -d --name portal -p 8063:80 --restart unless-stopped isaquematos/viaserra-portal:1.0-26176363
+   docker run -d --name manutencao -p 7063:80 --restart unless-stopped manutencao:26176363
 
 8. Qual comando derruba os dois containers de uma vez?
+R: docker compose down
 
 ## Verificador
 
