@@ -52,7 +52,7 @@ R: docker compose down
 ## Verificador
 
 9. Código de conclusão impresso pelo verificador:
-
+R: VIASERRA-26176363-25472666
 ```
 (cole aqui)
 ```
