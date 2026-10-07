@@ -1,9 +1,9 @@
 # Respostas · Avaliação Prática de Docker · ViaSerra Transportes (Turma C)
 
-Nome:
-Matrícula:
-Usuário do GitHub:
-Usuário do Docker Hub:
+Nome: Isaque Santos Matos
+Matrícula: 26176363
+Usuário do GitHub: Isaque-Matos
+Usuário do Docker Hub: isaquematos
 
 Responda com as suas palavras e com o que aconteceu na SUA máquina. Resposta curta e certa vale mais
 do que texto longo copiado. Resposta que contradiz o seu próprio Dockerfile vale zero.
@@ -11,9 +11,11 @@ do que texto longo copiado. Resposta que contradiz o seu próprio Dockerfile val
 ## Parte 1 · Dockerfile do portal
 
 1. Qual imagem base você usou e qual o tamanho final da imagem do portal (saída de `docker images`)?
+R: Utilizei a imagem nginx:1.27-alpine. O tamanho final foi de 21mb
 
 2. Em qual pasta do container o Nginx procura os arquivos do site? Mostre o comando que você usou para
    conferir que o `index.html` está lá dentro.
+   R: A pasta é /usr/share/nginx/html/, o comando utilizado para conferir foi: docker exec -it teste-portal ls /usr/share/nginx/html/
 
 ## Parte 2 · Docker Hub
 
